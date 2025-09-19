@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>M Lokesh Resume</title>
+    <style>
+        /* 2. Keep all the font in Times New Roman and size 10 */
+        /* 1. be sure that the spacing is 0pt and line spacing is single */
+        body {
+            font-family: 'Times New Roman', Times, serif;
+            font-size: 10pt;
+            line-height: 1; /* Single line spacing */
+            margin: 40px;
+            padding: 0;
+        }
+
+        /* 1. be sure that the spacing is 0pt */
+        p, h1, h2, h3, div {
+            margin: 0;
+            padding: 0;
+        }
+
+        .resume-container {
+            max-width: 800px;
+            margin: auto;
+        }
+
+        /* 3. Make sure that the Name is in size 12 and Bold */
+        .name {
+            font-size: 12pt;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 5px;
+        }
+
+        .contact-info {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+
+        /* 4. Make sure to keep the clickable links */
+        .contact-info a {
+            color: blue;
+            text-decoration: underline;
+        }
+
+        /* 3. Make sure that the headings is size 11 and Bold */
+        .section-heading {
+            font-size: 11pt;
+            font-weight: bold;
+            margin-top: 10px;
+            margin-bottom: 5px;
+        }
+
+        /* 5. Make sure that every section is separated by a line */
+        hr {
+            border: 0;
+            height: 1px;
+            background-color: #000;
+            margin: 5px 0;
+        }
+
+        .entry {
+            margin-bottom: 5px;
+        }
+
+        .entry-header {
+            display: flex;
+            justify-content: space-between;
+        }
+
+        .entry-header .institution {
+            font-weight: bold;
+        }
+        
+        .entry-details {
+             display: flex;
+            justify-content: space-between;
+        }
+
+        ul {
+            list-style-type: disc;
+            margin: 0;
+            padding-left: 20px;
+        }
+
+        li {
+            margin-bottom: 2px;
+        }
+        
+        .project-title {
+            font-weight: bold;
+            margin-bottom: 3px;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="resume-container">
+        <!-- NAME -->
+        <div class="name">M LOKESH</div>
+
+        <!-- CONTACT INFORMATION -->
+        <div class="contact-info">
+            Palamaner, Andhra Pradesh | <a href="mailto:lokedaasa@gmail.com">lokedaasa@gmail.com</a> | 8919945305
+        </div>
+
+        <!-- SEPARATOR -->
+        <hr>
+
+        <!-- CAREER OBJECTIVE -->
+        <div class="section-heading">CAREER OBJECTIVE</div>
+        <p>
+            Passionate and dedicated individual eager to demonstrate expertise in creating impactful solutions. Committed to positively contributing to team goals while keeping up-to-date with industry trends.
+        </p>
+
+        <!-- SEPARATOR -->
+        <hr>
+
+        <!-- EDUCATION -->
+        <div class="section-heading">EDUCATION</div>
+        <div class="entry">
+            <div class="entry-header">
+                <span class="institution">Reva University</span>
+                <span>Bangalore</span>
+            </div>
+            <div class="entry-details">
+                <span>B-tech in Computer Science and Engineering | CGPA: 6.48</span>
+                <span>2021-2025</span>
+            </div>
+        </div>
+        <div class="entry">
+            <div class="entry-header">
+                <span class="institution">Sri Chaitanya college</span>
+                <span>Tirupathi</span>
+            </div>
+            <div class="entry-details">
+                <span>Intermediate-MPC | 55.54%</span>
+                <span>2019-2021</span>
+            </div>
+        </div>
+        <div class="entry">
+            <div class="entry-header">
+                <span class="institution">Sri Chaitanya Techno School</span>
+                <span>Tirupathi</span>
+            </div>
+            <div class="entry-details">
+                <span>10th class | CGPA: 9.5</span>
+                <span>2018-2019</span>
+            </div>
+        </div>
+
+        <!-- SEPARATOR -->
+        <hr>
+
+        <!-- SKILLS -->
+        <div class="section-heading">SKILLS</div>
+        <p>
+            <strong>Programming Languages:</strong> C, Python<br>
+            <strong>Python Libraries:</strong> NumPy, Pandas, Matplotlib.<br>
+            <strong>Database:</strong> SQL PLUS.<br>
+            <strong>Web Technologies:</strong> HTML, CSS, Javascript.
+        </p>
+
+        <!-- SEPARATOR -->
+        <hr>
+
+        <!-- SOFT SKILLS & INTERESTS -->
+        <div class="section-heading">SOFT SKILLS & INTERESTS</div>
+        <p>
+            <strong>Soft Skills:</strong> Problem Solving, Team Collaboration, Adaptability, Communication Skills, Fast Learner, Time Management Skills<br>
+            <strong>Interests:</strong> Creating innovative solutions, Playing sports, listening to music, Geopolitics observer.
+        </p>
+
+        <!-- SEPARATOR -->
+        <hr>
+
+        <!-- PROJECTS -->
+        <div class="section-heading">PROJECTS</div>
+        <div class="entry">
+            <div class="project-title">Brain Stroke Prediction using Machine Learning (Sep 2023)</div>
+            <ul>
+                <li>Developed a machine learning model for predicting brain strokes based on pertinent medical data.</li>
+                <li>Utilized Python, scikit-learn, and advanced data preprocessing techniques.</li>
+            </ul>
+        </div>
+        <div class="entry">
+            <div class="project-title">Secured Personal Website using HTML, CSS, Java (Nov 2023)</div>
+            <ul>
+                <li>Designed and implemented a secure portfolio website integrating authentication functionalities using HTML, CSS, and Java.</li>
+            </ul>
+        </div>
+        <div class="entry">
+            <div class="project-title">Rapid Aid: An Online Ambulance Service (April 2024)</div>
+            <ul>
+                <li>Spearheaded the creation of Rapid Aid, an innovative online ambulance service, emphasizing rapid response and efficient resource allocation.</li>
+                <li>Addressed challenges such as accessibility and data privacy, aiming to revolutionize emergency medical care through technology.</li>
+            </ul>
+        </div>
+
+    </div>
+
+</body>
+</html>

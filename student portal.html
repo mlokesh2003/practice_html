@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Portal</title>
+</head>
+<body>
+    <header>
+        <h1>Student Portal</h1>
+        <h2>Welcome to Your Academic Dashboard</h2>
+    </header>
+
+    <nav>
+        <h3>Navigation</h3>
+        <ul>
+            <li><a href="#dashboard">Dashboard</a></li>
+            <li><a href="#courses">My Courses</a></li>
+            <li><a href="#grades">Grades</a></li>
+            <li><a href="#assignments">Assignments</a></li>
+            <li><a href="#schedule">Schedule</a></li>
+            <li><a href="#profile">Profile</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="dashboard">
+            <h3>Dashboard</h3>
+            <p>Welcome, Student!</p>
+            <p>Quick Stats:</p>
+            <ul>
+                <li>Current CGP 6.5</li>
+                <li>Credits Completed: 45</li>
+                <li>Courses This Semester: 4</li>
+                <li>Upcoming Assignments: 3</li>
+            </ul>
+        </section>
+
+        <section id="courses">
+            <h3>My Courses</h3>
+            <table border="1" cellpadding="10" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Course Code</th>
+                        <th>Course Name</th>
+                        <th>Instructor</th>
+                        <th>Credits</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>CS101</td>
+                        <td>Introduction to Computer Science</td>
+                        <td>raj</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>MATH201</td>
+                        <td>Calculus II</td>
+                        <td>ruthvi</td>
+                        <td>4</td>
+                    </tr>
+                    <tr>
+                        <td>ENG102</td>
+                        <td>English Composition</td>
+                        <td>Lokesh</td>
+                        <td>3</td>
+                    </tr>
+                    <tr>
+                        <td>PHY101</td>
+                        <td>Physics I</td>
+                        <td>sreeni</td>
+                        <td>4</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="grades">
+            <h3>Current Grades</h3>
+            <table border="1" cellpadding="10" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Course</th>
+                        <th>Current Grade</th>
+                        <th>Midterm</th>
+                        <th>Final</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>CS101</td>
+                        <td>A</td>
+                        <td>A-</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>MATH201</td>
+                        <td>B+</td>
+                        <td>B</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>ENG102</td>
+                        <td>A</td>
+                        <td>A</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td>PHY101</td>
+                        <td>A-</td>
+                        <td>B+</td>
+                        <td>-</td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+
+        <section id="assignments">
+            <h3>Upcoming Assignments</h3>
+            <ol>
+                <li>
+                    <strong>CS101 - Programming Assignment 3</strong>
+                    <br>Due: December 15, 2024
+                    <br>Description: Create a simple calculator program
+                </li>
+                <li>
+                    <strong>MATH201 - Problem Set 8</strong>
+                    <br>Due: December 18, 2024
+                    <br>Description: Integration problems and applications
+                </li>
+                <li>
+                    <strong>ENG102 - Essay 3</strong>
+                    <br>Due: December 20, 2024
+                    <br>Description: Research paper on modern literature
+                </li>
+            </ol>
+        </section>
+
+        <section id="schedule">
+            <h3>Weekly Schedule</h3>
+            <table border="1" cellpadding="10" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Time</th>
+                        <th>Monday</th>
+                        <th>Tuesday</th>
+                        <th>Wednesday</th>
+                        <th>Thursday</th>
+                        <th>Friday</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>9:00-10:30</td>
+                        <td>CS101</td>
+                        <td>-</td>
+                        <td>CS101</td>
+                        <td>-</td>
+                        <td>CS101 Lab</td>
+                    </tr>
+                    <tr>
+                        <td>11:00-12:30</td>
+                        <td>MATH201</td>
+                        <td>-<thinking>
+The user wants a web page for a student portal using only HTML (no CSS or JavaScript). This means a simple HTML page with relevant sections for a student portal such as header, navigation, main content areas like courses, announcements, profile, and contact info, but without styling.
+
+I will create a simple HTML file named "student-portal.html" with semantic HTML structure and content relevant to a student portal, using only HTML tags.
+</thinking>
+
+<create_file>
+<path>student-portal.html</path>
+<content>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Student Portal</title>
+</head>
+<body>
+    <header>
+        <h1>Student Portal</h1>
+        <nav>
+            <ul>
+                <li><a href="#profile">Profile</a></li>
+                <li><a href="#courses">Courses</a></li>
+                <li><a href="#announcements">Announcements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="profile">
+            <h2>Student Profile</h2>
+            <p>Name: John Doe</p>
+            <p>Student ID: 123456</p>
+            <p>Major: Computer Science</p>
+            <p>Year: Sophomore</p>
+        </section>
+
+        <section id="courses">
+            <h2>Enrolled Courses</h2>
+            <ul>
+                <li>Introduction to Programming</li>
+                <li>Data Structures and Algorithms</li>
+                <li>Database Systems</li>
+                <li>Operating Systems</li>
+            </ul>
+        </section>
+
+        <section id="announcements">
+            <h2>Announcements</h2>
+            <ul>
+                <li>Midterm exams start next week.</li>
+                <li>Project submission deadline extended to May 15.</li>
+                <li>Guest lecture on AI this Friday at 3 PM.</li>
+            </ul>
+        </section>
+
+        <section id="contact">
+            <h2>Contact Information</h2>
+            <p>Email: studentportal@university.edu</p>
+            <p>Phone: (555) 123-4567</p>
+            <p>Office Hours: Mon-Fri 9 AM - 5 PM</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 University Student Portal</p>
+    </footer>
+</body>
+</html>
